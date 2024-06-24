@@ -1,0 +1,41 @@
+.css-1peknzx-MuiPaper-root{
+    padding: 0 !important;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+    height: 100% !important;
+}
+
+.css-19r6kue-MuiContainer-roo{
+    height: 8vh !important;
+}
+.css-1pz7awu-MuiButtonBase-root-MuiIconButton-root{
+    padding: 2px !important;
+}
+.css-1q39md6-MuiButtonBase-root-MuiButton-root{
+    padding: 2px !important;
+}
+
+.css-1peknzx-MuiPaper-root{
+    height: 100%;
+}
+
+@media (min-width: 600px) {
+    .css-19r6kue-MuiContainer-root {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+}
+
+@media (min-width: 600px) {
+    .css-r6ewbb-MuiToolbar-root {
+        min-height: 40px !important;
+    }
+}
+@media (min-width: 0px) {
+    @media (orientation: landscape) {
+        .css-r6ewbb-MuiToolbar-root {
+            min-height: 48px;
+        }
+    }
+}
