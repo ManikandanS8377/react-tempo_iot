@@ -7,3 +7,27 @@ body{
 .header{
     background-color: yellow;
 }
+
+.paddMarZero{
+    padding: 0;
+    margin: 0;
+}
+.display_flex{
+    display: flex;
+}
+.justify_center{
+    justify-content: center;
+}
+.justify_end{
+    justify-content: flex-end;
+}
+.align_center{
+    align-items: center;
+}
+.half_sec{
+    width: 50%;
+}
+
+.css-14ogsoa-MuiModal-root-MuiPopover-root-MuiMenu-root{
+    margin-top: 0px !important;
+}

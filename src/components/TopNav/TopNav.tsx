@@ -15,7 +15,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 
 import './TopNav.css';
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = [];
 const settings = ['Profile', 'Logout'];
 
 function TopNav() {
@@ -38,10 +38,9 @@ function TopNav() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="fixed">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -57,7 +56,7 @@ function TopNav() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            TEMPOIOT
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>

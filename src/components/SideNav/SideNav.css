@@ -1,0 +1,91 @@
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    position: inherit !important;
+}
+
+.css-1gjvs5g-MuiGrid2-root{
+    margin-top: 3.6rem !important;
+    position: fixed !important;
+    z-index: 10;
+}
+
+.css-h4y409-MuiList-root{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.css-1wwplkn-MuiPaper-root{
+    padding: 0 !important;
+}
+.css-1wwplkn-MuiPaper-root{
+    padding: 0 !important;
+}
+.css-1n7e2xu-MuiDrawer-docked{
+    width: 100% !important;
+}
+.css-cveggr-MuiListItemIcon-root{
+    min-width: 0PX !important;
+}
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root{
+    justify-content: center !important;
+}
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root{
+    padding: 1.5rem !important;
+}
+
+.css-k008qs{
+    height: 100% !important;
+}
+.css-h4y409-MuiList-root{
+    width: 100% !important;
+}
+.css-1nxmd3h-MuiListItem-root{
+    /*  */
+}
+.css-1nxmd3h-MuiListItem-root:hover{
+    /*  */
+}
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root{
+    padding: 0 !important;
+
+}
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:hover{
+    background-color: rgb(172, 223, 236) !important;
+    transition: opacity 0.5s ease, visibility 0.3s ease;
+}
+.css-tlelie-MuiListItemText-root{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 4rem;
+}
+.css-1lft3hk{
+    width: max-content;
+    padding: 0 !important;
+    border-radius: 10px;
+    min-width: 11rem;
+}
+.sub-list .css-tlelie-MuiListItemText-root{
+    height: 2rem;
+    margin: 0%;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+.css-i4bv87-MuiSvgIcon-root{
+    height: 1.5em !important;
+    width: 1.5em !important;
+    margin: 0.8rem !important;
+}
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:hover .css-i4bv87-MuiSvgIcon-root{
+    color: #5604a1;
+}
+
+.sub-list .css-i4bv87-MuiSvgIcon-root{
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0.3rem !important;
+}
+.css-1p823my-MuiListItem-root {
+    border-bottom: 1px solid rgb(223 222 222);
+    padding-left: 0.3rem !important;
+    padding-right: 16px !important;
+}

@@ -1,0 +1,84 @@
+.css-6zofb7-MuiGrid2-root{
+    margin-top: 3.6rem;
+    margin-left: 8.4%;   
+}
+.content-area{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+}
+
+.subnavbar{
+    height: 2.5rem;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    margin-top: 0rem;
+    width: -webkit-fill-available;
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.3);
+    z-index: 9;
+}
+
+.nextednavbar{
+    height: 2.5rem;
+    background-color:rgb(255, 255, 255);
+    position: fixed;
+    width: -webkit-fill-available;
+    margin-top: 2.5rem;
+    z-index: 8;
+}
+.main-content{
+    position: fixed;
+    width: 100%;
+    margin-top: 5rem;
+    height: 100%;
+    z-index: 7;
+}
+
+.dashboard_name{
+    margin-left: 10px;
+    color: #747474;
+    font-size: 15px; 
+}
+.active_count{
+    border: 1px solid rgb(75, 119, 3);
+    padding: 4px;
+    border-radius: 8px;
+    color: rgb(75, 119, 3);
+}
+.inactive_count{
+    border: 1px solid rgb(170, 5, 5);
+    padding: 4px;
+    border-radius: 8px;
+    color: rgb(170, 5, 5);;
+}
+.left_align_lable{
+    margin-right: 4px;
+    font-weight: bold;
+}
+.right_align_lable{
+    margin-left: 4px;
+}
+
+.add_option{
+    background: #563bbf;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    height: 1.8rem;
+    cursor: pointer;
+}
+.nes_sec_left{
+    width: 20%;
+}
+.nes_sec_right{
+    width: 80%;
+}
+.content-icon{
+    height: 1rem !important;
+    width: 1rem !important;
+    margin: 0;
+    padding: 0;
+    margin: 0 !important;
+}
