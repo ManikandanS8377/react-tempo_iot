@@ -31,3 +31,19 @@ body{
 .css-14ogsoa-MuiModal-root-MuiPopover-root-MuiMenu-root{
     margin-top: 0px !important;
 }
+
+.main-content{
+    position: fixed;
+    width: -webkit-fill-available;
+    margin-top: 5rem;
+    height: -webkit-fill-available;
+    z-index: 7;
+    padding: 0.5rem;
+    overflow-y: scroll;
+}
+
+.card-wrapping-section{
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    display: flex;
+}

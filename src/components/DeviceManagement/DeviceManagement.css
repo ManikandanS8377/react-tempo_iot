@@ -3,7 +3,6 @@
     margin-left: 8.4%;   
 }
 .content-area{
-    background-color: aqua;
     width: 100%;
     height: 100%;
 }
@@ -24,14 +23,8 @@
     position: fixed;
     width: -webkit-fill-available;
     margin-top: 2.5rem;
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
     z-index: 8;
-}
-.main-content{
-    position: fixed;
-    width: 100%;
-    margin-top: 5rem;
-    height: 100%;
-    z-index: 7;
 }
 
 .dashboard_name{
@@ -49,7 +42,7 @@
     border: 1px solid rgb(170, 5, 5);
     padding: 4px;
     border-radius: 8px;
-    color: rgb(170, 5, 5);;
+    color: rgb(170, 5, 5);
 }
 .left_align_lable{
     margin-right: 4px;

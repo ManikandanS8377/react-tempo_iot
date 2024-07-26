@@ -11,7 +11,7 @@ import '../../assets/css/main.css'
 
 import TopNav  from '../../components/TopNav/TopNav'
 import SideNav  from '../../components/SideNav/SideNav'
-import MenuCard from '../../components/MenuCard/MenuCard'
+import DeviceManagement from '../../components/DeviceManagement/DeviceManagement'
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -46,9 +46,9 @@ export default function Dashboard() {
         </Item>
       </Grid>
       <Grid xs={11}>
-        <Item sx={{ height: '92vh' }}>
-          {(selectedPath === '/dashboard/dashboard' || selectedPath === '/') && <MenuCard />}
-          {selectedPath === '/management/assert' && <MenuCard />}
+        <Item sx={{ height: '-webkit-fill-available',padding: 0}}>
+          {(selectedPath === '/dashboard/dashboard' || selectedPath === '/') && <DeviceManagement />}
+          {selectedPath === '/management/assert' && <DeviceManagement />}
         </Item>
       </Grid>
     </GridContainer >

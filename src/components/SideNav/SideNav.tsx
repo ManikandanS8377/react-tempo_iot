@@ -1,7 +1,6 @@
 import * as React from 'react';
 // import { useNavigate } from 'react-router-dom';
-import { isValidPath, navigateToNotFoundPage } from '../../global/routers/Routes';
-import useNavigateToNotFound from '../../views/pages/NotFound/NotFound';
+import { isValidPath} from '../../global/routers/Routes';
 
 import Box from '@mui/material/Box';
 import List from '@mui/material/List';

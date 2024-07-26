@@ -1,0 +1,55 @@
+.css-zbaamk-MuiGrid-root{
+    padding: 5px;
+}
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    padding: 0 !important;
+}
+.css-185gdzj-MuiCardHeader-root{
+    padding: 0 !important;
+    border-bottom:1px solid rgb(235, 235, 235) ;
+}
+.css-1qvr50w-MuiTypography-root{
+    font-size: 15px !important;
+    margin-left: 10px !important;
+}
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root .css-i4bv87-MuiSvgIcon-root{
+    font-size: 1rem !important;
+}
+
+.css-46bh2p-MuiCardContent-root{
+    padding: 8px !important;
+    height: 11rem;
+}
+
+.css-zbaamk-MuiGrid-root{
+    display: flex;
+    justify-content: center;
+}
+.css-14j1sok-MuiGrid-root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CardItems{
+    border: 1px solid rgba(219, 219, 219, 0.521);
+    margin-top: 10px;
+    max-width: 250px;
+    min-width: 250px;
+
+    @media (min-width: 600px) {
+        max-width: 230px;
+        min-width: 230px;
+    }
+    @media (min-width: 960px) { 
+        max-width: 240px;
+        min-width: 240px;
+    }
+}
+.CardItems:hover{
+    box-shadow: 1px 1px 9px;
+}
